@@ -31,7 +31,7 @@ A media sharing platform consisting of a backend server with CRUD operations, a 
 - **Cloud Storage**: AWS S3
 - **CI/CD**: GitHub Actions
 
-## Prerequisites
+## Prerequisites  
 
 - Node.js
 - npm or yarn
