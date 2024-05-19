@@ -1,0 +1,31 @@
+# Media Sharing Platform
+
+A media sharing platform consisting of a backend server with CRUD operations, a web application, and a mobile application. The platform allows users to upload images or videos, view a list of all media, and like/unlike them.
+
+
+
+## Features
+
+- User authentication and authorization
+- Upload and view images/videos
+- Like and unlike media
+- Responsive web application
+- Mobile application
+
+## Tech Stack
+
+- **Backend:** Node.js, Express, MongoDB, Mongoose
+- **Frontend:** React
+- **Mobile:** React Native
+- **Cloud Storage:** AWS S3
+- **CI/CD:** GitHub Actions
+
+## Prerequisites
+
+- Node.js
+- npm or yarn
+- MongoDB
+- AWS S3 account
+- Git
+
+
