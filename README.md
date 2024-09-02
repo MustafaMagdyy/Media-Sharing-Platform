@@ -1,6 +1,6 @@
 # Media Sharing Platform
 
-A media sharing platform consisting of a backend server with CRUD operations, a web application, and a mobile application. The platform allows users to upload images or videos, view a list of all media, and like/unlike them and more endpoints.
+A media sharing platform consisting of a backend server with CRUD operations and a web application. The platform allows users to upload images or videos, view a list of all media, and like/unlike them and more endpoints.
 
 ![Media Sharing Platform]
 
@@ -17,13 +17,11 @@ A media sharing platform consisting of a backend server with CRUD operations, a 
 - **Upload and View Media**: Users can upload and view images/videos.
 - **Like and Unlike Media**: Users can like and unlike media.
 - **Responsive Web Application**
-- **Mobile Application**
 
 ## Tech Stack
 
 - **Backend**: Node.js, Express, MongoDB, Mongoose
 - **Frontend**: React
-- **Mobile**: React Native
 - **Cloud Storage**: AWS S3
 - **CI/CD**: GitHub Actions
 
@@ -48,10 +46,7 @@ A media sharing platform consisting of a backend server with CRUD operations, a 
 1.Navigate to the frontend directory
 2.Install dependencies
 3.Start the development server
-### Mobile
-1.Navigate to the mobile directory
-2.nstall dependencies
-3.Start server
+
 
 ## Usage
--To start the project, follow the installation steps for the backend, frontend, and mobile applications. Access the web application at http://localhost:3000 and the mobile application
+-To start the project, follow the installation steps for the backend and frontend. Access the web application at http://localhost:3000
