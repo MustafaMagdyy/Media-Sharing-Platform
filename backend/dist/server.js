@@ -8,7 +8,7 @@ const mongoose_1 = __importDefault(require("mongoose"));
 const dotenv_1 = __importDefault(require("dotenv"));
 const http_1 = __importDefault(require("http"));
 // Setting up environment variables
-dotenv_1.default.config({ path: "./src/config.env" });
+dotenv_1.default.config({ path: "./config.env" });
 const app_1 = __importDefault(require("./app"));
 const port = process.env.PORT || 5000;
 const server = http_1.default.createServer(app_1.default);

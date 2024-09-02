@@ -3,7 +3,7 @@ import dotenv from "dotenv";
 import http from 'http';
 import fileUpload from 'express-fileupload';
 // Setting up environment variables
-dotenv.config({ path: "./src/config.env" });
+dotenv.config({ path: "./config.env" });
 import app from "./app";
 import { Console } from "console";
 const port = process.env.PORT || 5000;
