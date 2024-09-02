@@ -69,7 +69,7 @@ jobs:
           AWS_REGION: ${{ secrets.AWS_REGION }}
           AWS_S3_BUCKET_NAME: ${{ secrets.AWS_S3_BUCKET_NAME }}
         run: |
-          aws s3 sync frontend/ s3://$AWS_S3_BUCKET_NAME/frontend --delete
+          aws s3 sync frontend/build/ s3://$AWS_S3_BUCKET_NAME/frontend --delete
 
       - name: Set environment variables for production server
         run: |
