@@ -8,8 +8,8 @@ const MediaItem = ({ item }) => {
 
   useEffect(() => {
     setLiked(item.liked);
-  }, [item.liked]);
-
+  }, [item.liked, setLiked]); 
+  
   const handleLike = async () => {
     try {
       await likeMedia(item._id);
