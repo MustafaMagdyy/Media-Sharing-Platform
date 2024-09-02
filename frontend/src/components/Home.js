@@ -11,7 +11,7 @@ const Home = () => {
   const [file, setFile] = useState(null);
   const [error, setError] = useState('');
   const { user, loading } = useUser();
-  const navigate = useNavigate();
+  //const navigate = useNavigate();
 
   useEffect(() => {
     const fetchMediaData = async () => {

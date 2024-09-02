@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { likeMedia, unlikeMedia } from '../services/api';
 
 const MediaItem = ({ item }) => {
-  const [liked, setLiked] = useState(item.liked);
+  const [ setLiked] = useState(item.liked);
   const [likesCount, setLikesCount] = useState(item.likes);
   const [message, setMessage] = useState('');
 
