@@ -2,7 +2,7 @@ import { Router } from "express";
 import { login, logout, protect, signup,updatePassword,restrictTo } from "../controllers/authController";
 import {getAllUsers,getMe,getOne,updateMe} from "../controllers/userController"
 const router = Router();
-
+console.log("t");
 router.post("/signup", signup);
 router.post("/login", login);
 router.post("/logout",protect,logout)

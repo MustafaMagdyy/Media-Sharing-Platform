@@ -3,10 +3,9 @@ import dotenv from "dotenv";
 import http from 'http';
 import fileUpload from 'express-fileupload';
 // Setting up environment variables
-dotenv.config({ path: "./config.env" });
+dotenv.config({ path: "./src/config.env" });
 import app from "./app";
 import { Console } from "console";
-
 const port = process.env.PORT || 5000;
 const server = http.createServer(app);
 // Connecting to MongoDB
@@ -16,7 +15,7 @@ const mongoDB = process.env.DATABASE?.replace(
 );
 if (mongoDB) {
   mongoose
-    .connect(mongoDB, { useNewUrlParser: true, useUnifiedTopology: true })
+    .connect(mongoDB)
     .then(() => {
       console.log("DB connection successful!");
     })

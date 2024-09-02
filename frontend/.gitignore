@@ -1,0 +1,17 @@
+# Node modules
+node_modules/
+
+# Build directory
+build/
+
+# Environment variables
+.env
+
+# System files
+.DS_Store
+
+# Coverage directory used by testing tools
+coverage/
+
+# NPM debug files
+npm-debug.log*
