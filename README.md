@@ -49,4 +49,8 @@ A media sharing platform consisting of a backend server with CRUD operations and
 
 
 ## Usage
+<<<<<<< HEAD
 -To start the project, follow the installation steps for the backend and frontend. Access the web application at http://localhost:3000
+=======
+-To start the project, follow the installation steps for the backend and frontend. Access the web application at http://localhost:3000
+>>>>>>> a0273ac9835278b4ea1dd16395b1f047f1232ee1
